@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		3086E15E1DBEFB3900FA1F92 /* DVTInstrumentsFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3086E15D1DBEFB3900FA1F92 /* DVTInstrumentsFoundation.framework */; };
 		3086E1601DBEFE7A00FA1F92 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3086E15F1DBEFE7A00FA1F92 /* DVTFoundation.framework */; };
+		3A60F70B1E44F47200705AA2 /* XRTrace+TUDataExporting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A60F70A1E44F47200705AA2 /* XRTrace+TUDataExporting.m */; };
+		3A60F7101E44F47B00705AA2 /* NSArray+TUFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A60F70D1E44F47B00705AA2 /* NSArray+TUFunctional.m */; };
+		3A60F7111E44F47B00705AA2 /* NSString+TUFilePathing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A60F70F1E44F47B00705AA2 /* NSString+TUFilePathing.m */; };
+		3A60F7141E44F4A100705AA2 /* TuFpsData.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A60F7131E44F4A100705AA2 /* TuFpsData.m */; };
 		3A7726471E42329400F86904 /* TraceParsingUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7726461E42329400F86904 /* TraceParsingUtility.m */; };
-		3A7726521E42390300F86904 /* XRTrace+TUDataExporting.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7726511E42390300F86904 /* XRTrace+TUDataExporting.m */; };
-		3A7726551E42408A00F86904 /* NSArray+TUFunctional.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7726541E42408A00F86904 /* NSArray+TUFunctional.m */; };
-		3A7726581E42496700F86904 /* NSString+TUFilePathing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A7726571E42496700F86904 /* NSString+TUFilePathing.m */; };
 		FECBF4831B9D577200D653A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FECBF4821B9D577200D653A7 /* main.m */; };
 		FECBF4951B9D6CE500D653A7 /* InstrumentsPlugIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FECBF4931B9D6CE500D653A7 /* InstrumentsPlugIn.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,14 @@
 /* Begin PBXFileReference section */
 		3086E15D1DBEFB3900FA1F92 /* DVTInstrumentsFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTInstrumentsFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTInstrumentsFoundation.framework; sourceTree = "<group>"; };
 		3086E15F1DBEFE7A00FA1F92 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DVTFoundation.framework; path = ../../../../Applications/Xcode.app/Contents/SharedFrameworks/DVTFoundation.framework; sourceTree = "<group>"; };
+		3A60F7091E44F47200705AA2 /* XRTrace+TUDataExporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XRTrace+TUDataExporting.h"; sourceTree = "<group>"; };
+		3A60F70A1E44F47200705AA2 /* XRTrace+TUDataExporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XRTrace+TUDataExporting.m"; sourceTree = "<group>"; };
+		3A60F70C1E44F47B00705AA2 /* NSArray+TUFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TUFunctional.h"; sourceTree = "<group>"; };
+		3A60F70D1E44F47B00705AA2 /* NSArray+TUFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TUFunctional.m"; sourceTree = "<group>"; };
+		3A60F70E1E44F47B00705AA2 /* NSString+TUFilePathing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TUFilePathing.h"; sourceTree = "<group>"; };
+		3A60F70F1E44F47B00705AA2 /* NSString+TUFilePathing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TUFilePathing.m"; sourceTree = "<group>"; };
+		3A60F7121E44F4A100705AA2 /* TuFpsData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuFpsData.h; sourceTree = "<group>"; };
+		3A60F7131E44F4A100705AA2 /* TuFpsData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TuFpsData.m; sourceTree = "<group>"; };
 		3A7726451E42329400F86904 /* TraceParsingUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TraceParsingUtility.h; sourceTree = "<group>"; };
 		3A7726461E42329400F86904 /* TraceParsingUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TraceParsingUtility.m; sourceTree = "<group>"; };
 		3A7726491E42337300F86904 /* PluginHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginHeaders.h; sourceTree = "<group>"; };
@@ -41,12 +50,6 @@
 		3A77264D1E4236BD00F86904 /* PFTInstrumentType+TUPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PFTInstrumentType+TUPrivate.h"; sourceTree = "<group>"; };
 		3A77264E1E42374B00F86904 /* XRRun+TUPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XRRun+TUPrivate.h"; sourceTree = "<group>"; };
 		3A77264F1E42379D00F86904 /* XRDevice+TUPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XRDevice+TUPrivate.h"; sourceTree = "<group>"; };
-		3A7726501E42390300F86904 /* XRTrace+TUDataExporting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "XRTrace+TUDataExporting.h"; sourceTree = "<group>"; };
-		3A7726511E42390300F86904 /* XRTrace+TUDataExporting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "XRTrace+TUDataExporting.m"; sourceTree = "<group>"; };
-		3A7726531E42408A00F86904 /* NSArray+TUFunctional.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+TUFunctional.h"; sourceTree = "<group>"; };
-		3A7726541E42408A00F86904 /* NSArray+TUFunctional.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+TUFunctional.m"; sourceTree = "<group>"; };
-		3A7726561E42496700F86904 /* NSString+TUFilePathing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+TUFilePathing.h"; sourceTree = "<group>"; };
-		3A7726571E42496700F86904 /* NSString+TUFilePathing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+TUFilePathing.m"; sourceTree = "<group>"; };
 		FECBF47F1B9D577200D653A7 /* TraceUtility */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TraceUtility; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECBF4821B9D577200D653A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FECBF4931B9D6CE500D653A7 /* InstrumentsPlugIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstrumentsPlugIn.framework; path = /Applications/Xcode.app/Contents/Applications/Instruments.app/Contents/Frameworks/InstrumentsPlugIn.framework; sourceTree = "<absolute>"; };
@@ -66,6 +69,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A60F7071E44F45700705AA2 /* Data Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				3A60F7121E44F4A100705AA2 /* TuFpsData.h */,
+				3A60F7131E44F4A100705AA2 /* TuFpsData.m */,
+				3A60F7091E44F47200705AA2 /* XRTrace+TUDataExporting.h */,
+				3A60F70A1E44F47200705AA2 /* XRTrace+TUDataExporting.m */,
+			);
+			path = "Data Parsing";
+			sourceTree = "<group>";
+		};
+		3A60F7081E44F45C00705AA2 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3A60F70C1E44F47B00705AA2 /* NSArray+TUFunctional.h */,
+				3A60F70D1E44F47B00705AA2 /* NSArray+TUFunctional.m */,
+				3A60F70E1E44F47B00705AA2 /* NSString+TUFilePathing.h */,
+				3A60F70F1E44F47B00705AA2 /* NSString+TUFilePathing.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		3A7726481E42335100F86904 /* Private Headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,16 +135,12 @@
 		FECBF4811B9D577200D653A7 /* TraceUtility */ = {
 			isa = PBXGroup;
 			children = (
+				3A60F7071E44F45700705AA2 /* Data Parsing */,
 				FECBF4821B9D577200D653A7 /* main.m */,
-				3A7726531E42408A00F86904 /* NSArray+TUFunctional.h */,
-				3A7726541E42408A00F86904 /* NSArray+TUFunctional.m */,
-				3A7726561E42496700F86904 /* NSString+TUFilePathing.h */,
-				3A7726571E42496700F86904 /* NSString+TUFilePathing.m */,
 				3A7726481E42335100F86904 /* Private Headers */,
 				3A7726451E42329400F86904 /* TraceParsingUtility.h */,
 				3A7726461E42329400F86904 /* TraceParsingUtility.m */,
-				3A7726501E42390300F86904 /* XRTrace+TUDataExporting.h */,
-				3A7726511E42390300F86904 /* XRTrace+TUDataExporting.m */,
+				3A60F7081E44F45C00705AA2 /* Utilities */,
 			);
 			path = TraceUtility;
 			sourceTree = "<group>";
@@ -180,11 +201,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A7726551E42408A00F86904 /* NSArray+TUFunctional.m in Sources */,
+				3A60F7141E44F4A100705AA2 /* TuFpsData.m in Sources */,
+				3A60F7101E44F47B00705AA2 /* NSArray+TUFunctional.m in Sources */,
 				FECBF4831B9D577200D653A7 /* main.m in Sources */,
-				3A7726581E42496700F86904 /* NSString+TUFilePathing.m in Sources */,
+				3A60F7111E44F47B00705AA2 /* NSString+TUFilePathing.m in Sources */,
 				3A7726471E42329400F86904 /* TraceParsingUtility.m in Sources */,
-				3A7726521E42390300F86904 /* XRTrace+TUDataExporting.m in Sources */,
+				3A60F70B1E44F47200705AA2 /* XRTrace+TUDataExporting.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
